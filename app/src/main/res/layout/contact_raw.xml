@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7dp"
+        app:cardUseCompatPadding="true"
+        >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="11dp"
+            android:id="@+id/llRaw1"
+            >
+            
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/img"
+                android:id="@+id/imgCoctact"
+                android:src="@drawable/b"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="11dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name"
+                    android:id="@+id/txtName"
+                    android:theme="@style/myThemeBold"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/number"
+                    android:id="@+id/txtNumber"
+                    android:theme="@style/myThemeNum"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

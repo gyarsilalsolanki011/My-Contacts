@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Contacts</string>
+    <string name="name">Contact</string>
+    <string name="number">Contact Number</string>
+    <string name="img">Contact Image</string>
+    <string name="btnFloate">Floating Button</string>
+    <string name="AddContact">Add Contact</string>
+    <string name="EntName">Enter Name</string>
+    <string name="EntNumber">Enter Number</string>
+    <string name="Add">Add</string>
+    <string name="updateContact">Update Contact</string>
+    <string name="Update">Update</string>
+</resources>
